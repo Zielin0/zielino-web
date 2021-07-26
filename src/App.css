@@ -1,38 +1,144 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --text-color: #ff0d8e;
+  --text-secondary-color: #e060a4;
+  --colon-color: #fac7e2;
+}
+
+body {
+  font-family: 'Roboto Mono', sans-serif;
+  background-color: #222;
+  color: #ccc;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+h1 {
+  color: var(--text-color);
+  font-size: 50px;
+  letter-spacing: -5px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: var(--text-color);
+}
+
+h3 {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-size: 26px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: var(--text-color);
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #aaa;
+}
+
+p {
+  margin: 20px 0;
+}
+
+nav {
+  width: 50%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.socials > li {
+  margin: 10px 0;
+}
+
+.about-btn {
+  color: var(--text-color);
+  cursor: pointer;
+  font-size: 20px;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+.main-container {
+  max-width: 600px;
+  margin: auto;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cursor {
+  font-weight: 700;
+  animation: 1s blink step-end infinite;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.track {
+  color: var(--text-secondary-color);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.colon {
+  color: var(--colon-color);
 }
 
-.App-link {
-  color: #61dafb;
+i {
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+.about-h {
+  margin-top: 100px;
+  margin-bottom: 35px;
+}
+
+.back {
+  font-size: 25px;
+  margin-top: 45px;
+  text-decoration: underline;
+}
+
+@keyframes blink {
+  from,
   to {
-    transform: rotate(360deg);
+    color: transparent;
+  }
+  50% {
+    color: #ddd;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .about-h {
+    margin-top: 100px;
+    font-size: 36px;
+  }
+
+  .about-p {
+    font-size: 16px;
+    margin: 10px 20px;
+  }
+
+  h1 {
+    letter-spacing: -3px;
   }
 }
