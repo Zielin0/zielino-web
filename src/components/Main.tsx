@@ -1,8 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import '../App.css'
 
 function Main() {
+  useEffect(() => {
+    document.title = 'Zielino:~$'
+  }, [])
+
   return (
     <>
       <div className="main-container">
