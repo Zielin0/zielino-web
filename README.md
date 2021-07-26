@@ -28,7 +28,7 @@
 <br />
 
 <div align="center">
-  <a href="https://github.com/Zielin0/zielino-web/LICENSE"><strong>LICENSE</strong></a>
+  <a href="https://github.com/Zielin0/zielino-web/blob/main/LICENSE"><strong>LICENSE</strong></a>
 </div>
 
 <br />
