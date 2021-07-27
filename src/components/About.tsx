@@ -35,7 +35,7 @@ function About() {
       </p>
 
       <Link to="/" className="back">
-        Wróć
+        <span className="back-span">cd&nbsp;..</span>
       </Link>
     </div>
   )

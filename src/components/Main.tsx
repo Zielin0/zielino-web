@@ -13,8 +13,9 @@ function Main() {
         <nav className="nav">
           <ul>
             <li id="about">
+              <span className="cmd">cd</span>
               <Link to="/about" className="about-btn">
-                /o-mnie
+                &nbsp;\o-mnie
               </Link>
             </li>
           </ul>

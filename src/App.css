@@ -10,6 +10,7 @@
   --text-color: #ff0d8e;
   --text-secondary-color: #e060a4;
   --colon-color: #fac7e2;
+  --text-cmd: #aa4b7e;
 }
 
 body {
@@ -97,6 +98,10 @@ nav ul {
   color: var(--text-secondary-color);
 }
 
+.cmd {
+  color: var(--text-cmd);
+}
+
 .colon {
   color: var(--colon-color);
 }
@@ -114,7 +119,12 @@ i {
 .back {
   font-size: 25px;
   margin-top: 45px;
+  font-weight: bolder;
   text-decoration: underline;
+}
+
+.zielino {
+  color: var(--text-color);
 }
 
 @keyframes blink {
