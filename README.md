@@ -33,9 +33,9 @@
 
 <br />
 <br />
+<br />
+<br />
 
-<div align="center">
-<h2><strong>To Do</strong></h2>
-<strong>-</strong> Language switching with button
-</div>
+## To Do
 
+- ~~Language switching with button~~ Done! :D

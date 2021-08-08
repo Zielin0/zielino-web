@@ -15,7 +15,7 @@ function Main() {
             <li id="about">
               <span className="cmd">cd</span>
               <Link to="/about" className="about-btn">
-                &nbsp;\o-mnie
+                &nbsp;about/
               </Link>
             </li>
           </ul>

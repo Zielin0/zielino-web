@@ -1,0 +1,12 @@
+{
+  "language": "Language",
+  "welcome_message_primary": "Hi, Im",
+  "welcome_message_secondary": "and I'm interested in programming.",
+  "description": "The programming languages I am interested in are: JavaScript, TypeScript, Python.",
+  "editor_primary": "I am using",
+  "editor_secondary": "as a code editor",
+  "frameworks": "The JavaScript frameworks I use are",
+  "and": "and",
+  "package_manager_primary": "I use",
+  "package_manager_secondary": "as the Node package manager"
+}
