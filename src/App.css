@@ -335,3 +335,13 @@ i {
   margin-top: 20px;
   margin-right: 20px;
 }
+
+.preloader {
+  text-align: center;
+  background-color: #232323;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
