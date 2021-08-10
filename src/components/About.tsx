@@ -46,7 +46,7 @@ function About() {
   }, [])
 
   return (
-    <>
+    <div className="all-container">
       <div className="language-select">
         <div className="d-flex justify-content-end align-items-center language-select-root">
           <div className="dropdown">
@@ -88,7 +88,7 @@ function About() {
           </div>
         </div>
       </div>
-      <div className="main-container">
+      <div className="main-container-about">
         <h1 className="about-h">
           Zielino<span className="colon">:</span>
           <span className="track">/about</span>$
@@ -119,7 +119,7 @@ function About() {
           <span className="back-span">cd&nbsp;..</span>
         </Link>
       </div>
-    </>
+    </div>
   )
 }
 

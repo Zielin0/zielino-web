@@ -35,7 +35,7 @@ h2 {
 h3 {
   margin-top: 25px;
   margin-bottom: 15px;
-  font-size: 26px;
+  font-size: 32px;
 }
 
 ul {
@@ -68,6 +68,7 @@ nav ul {
 
 .socials > li {
   margin: 10px 0;
+  font-size: 22px;
 }
 
 .about-btn {
@@ -76,6 +77,17 @@ nav ul {
   font-size: 20px;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
+}
+
+.main-container-about {
+  max-width: 600px;
+  margin: auto;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .main-container {
@@ -87,6 +99,31 @@ nav ul {
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin-top: -375px;
+}
+
+@media screen and (max-width: 1700px) {
+  .main-container {
+    margin-top: -300px;
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .main-container {
+    margin-top: -200px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .main-container {
+    margin-top: -200px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .main-container {
+    margin-top: -100px;
+  }
 }
 
 .cursor {
@@ -344,4 +381,21 @@ i {
   align-items: center;
   width: 100%;
   height: 100vh;
+}
+
+.all-container {
+  width: 100%;
+  height: 100%;
+}
+
+.wave-bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.wave-top {
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
