@@ -16,13 +16,13 @@
 <p align="center">Own personal website in react with typescript in "pink terminal" style</p>
 
 <p align="center">
-  <a href="https://Zielin0.ct8.pl/" target="_blank"><img src="https://Zielin0.ct8.pl/favicon.ico" width="180" alt="Zielino Avatar"></img></a>
+  <a href="https://zielinus.gq/" target="_blank"><img src="https://Zielin0.ct8.pl/favicon.ico" width="180" alt="Zielino Avatar"></img></a>
 </p>
 
 <br />
 
 <div align="center">
-  <a href="https://Zielin0.ct8.pl/"><strong>Click Here</strong></a> to view the page
+  <a href="https://zielinus.gq/"><strong>Click Here</strong></a> to view the page
 </div>
 
 <br />
