@@ -1,3 +1,7 @@
+# Archived repository
+
+## New website [here](https://github.com/Zielin0/zielinus.gq)
+
 # Zielino-web
 
 <p align="center">
